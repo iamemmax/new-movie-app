@@ -97,7 +97,7 @@ function Home() {
     <div>
 
           {/* trending movies */}
-            {trending.loading ? (<><Loading /></>) : (
+            {trending.loading && <Loading />}
 
              <div className={trendingBox}>
             <Typography variant='h6' className="heading" component="h2" gutterBottom>TRENDING MOVIES</Typography> 
@@ -107,7 +107,7 @@ function Home() {
            
            </Slider>
            </div>
-              )}
+              
            </div>
 
 

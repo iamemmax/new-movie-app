@@ -24,6 +24,10 @@ const useStyles = makeStyles((theme)=>({
     '& .active':{
         color:theme.palette.secondary.main
     },
+    '& .icons':{
+        position:"relative",
+        left:"1.5rem"
+    }
     }
 
 }))
@@ -53,7 +57,7 @@ let navLinks = [
 
                 
                 <ListItem button key={index}>
-                <ListItemIcon>
+                <ListItemIcon className="icons">
                     {links.icon}
                 </ListItemIcon>
                     <ListItemText key={index}><NavLink to={links.path}  className="drawerLink" onClick={drawerlinkBtn}>{links.name}</NavLink></ListItemText>

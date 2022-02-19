@@ -87,8 +87,8 @@ const App = () => {
                 <Route  path="/trend"  element={<Trend />}  />
                 <Route  path="/:name/:id"  element={<Singlepage />}  />
                 <Route  path="/tv"  element={<TvSeries />}  />
-                <Route  path="/tv/:name/:id"  element={<TvDetails />}  />
-                <Route  path="/tv/:id/:name/:season/:number"  element={<DisplayEpisodes />}  />
+                <Route  path="/:tv/:name/:id"  element={<TvDetails />}  />
+                <Route  path="/:tv/:id/:name/:season/:number"  element={<DisplayEpisodes />}  />
             </Routes>
         </main>    
         <footer><Footer/></footer>
