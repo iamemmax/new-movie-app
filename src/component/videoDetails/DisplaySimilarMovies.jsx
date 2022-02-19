@@ -49,7 +49,7 @@ function DisplaySimilarMovies({data, handlePlay}) {
              <Button variant="contained" color="primary" size="small"  startIcon={<AiIcons.AiOutlinePlayCircle />}><span className="action" >Play</span></Button>
             </div>
            <div className="View">
-            <Button href={`/movies/${slug}/${data.id}`} variant="contained" size="small"endIcon={<AiIcons.AiOutlineEyeInvisible/>}> <span className="action">View</span> </Button>
+            <Button href={`/${slug}/${data.id}`} variant="contained" size="small"endIcon={<AiIcons.AiOutlineEyeInvisible/>}> <span className="action">View</span> </Button>
              </div>
          </div>
          </OutsideClickHandler>

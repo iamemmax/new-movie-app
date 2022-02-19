@@ -39,7 +39,7 @@ const TvDetails = () => {
               </Typography>
             </div>
             <Grid container className="rating-box" justifyContent="space-between">
-              <Grid item className="ratings" xs={6}>
+              <Grid item className="rating" xs={6}>
                 <Typography variant="body1" className="ratingText">
                
                   Ratings:

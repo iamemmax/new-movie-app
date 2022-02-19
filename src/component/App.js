@@ -83,9 +83,9 @@ const App = () => {
 
         <main>
             <Routes>
-                <Route  path="/movies"  element={<Home />}  />
+                <Route  path="/"  element={<Home />}  />
                 <Route  path="/trend"  element={<Trend />}  />
-                <Route  path="/movies/:name/:id"  element={<Singlepage />}  />
+                <Route  path="/:name/:id"  element={<Singlepage />}  />
                 <Route  path="/tv"  element={<TvSeries />}  />
                 <Route  path="/tv/:name/:id"  element={<TvDetails />}  />
                 <Route  path="/tv/:id/:name/:season/:number"  element={<DisplayEpisodes />}  />

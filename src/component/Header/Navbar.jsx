@@ -20,7 +20,7 @@ function Navbar() {
         
         {
         "name":"Movies",
-        "path":"/movies",
+        "path":"/",
     },
     {"name":"Tv series",
         "path":"/tv", 
@@ -40,7 +40,7 @@ function Navbar() {
                
                 <div className={mobile}>
                     <div className="logo">
-                             <Typography variant="h6" component="h2" color="inherit" ><Link to="/movies" >MovieApp</Link></Typography>
+                             <Typography variant="h6" component="h2" color="inherit" ><Link to="/" >MovieApp</Link></Typography>
                             
                             </div>  
                     
@@ -62,7 +62,7 @@ function Navbar() {
                 :
                 <div className={laptop}>
                         <div className="logo">
-                             <Typography variant="h6" component="h2" color="inherit" ><Link to="/movies"  className={logo} >MovieApp</Link></Typography>
+                             <Typography variant="h6" component="h2" color="inherit" ><Link to="/"  className={logo} >MovieApp</Link></Typography>
                             
                             </div>                      
                       

@@ -81,7 +81,7 @@ function DisplayTrending({data, setSeletedVideo, handlePlayTrailer}) {
              <Button variant="contained" color="primary" size="small"  startIcon={<AiIcons.AiOutlinePlayCircle />}><span className="action" >Play</span></Button>
             </div>
            <div className="View">
-            <Link to={`/movies/${slug}/${data.id}`}> <Button variant="contained" size="small"endIcon={<AiIcons.AiOutlineEyeInvisible/>}> <span className="action">View</span> </Button>
+            <Link to={`/${slug}/${data.id}`}> <Button variant="contained" size="small"endIcon={<AiIcons.AiOutlineEyeInvisible/>}> <span className="action">View</span> </Button>
              </Link></div>
          </div>
          </OutsideClickHandler>

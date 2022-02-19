@@ -18,8 +18,8 @@ export const useStyles = makeStyles((theme)=>({
                 borderRadius:"50px",
 
                 [theme.breakpoints.down('md')]:{
-                margin:"6px",
-                fontSize:12
+                margin:"5px",
+                fontSize:"12px"
 
                 }
             },
