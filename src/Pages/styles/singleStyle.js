@@ -22,10 +22,13 @@ export const useStyles = makeStyles((theme) =>({
 table:{paddengLeft:0},
     heading:{
 
-        fontSize:"20px",
         fontWeight:"600",
-        textTransform:"capitalize",
-        padding:"0px 10px",
+        // padding:"0px 10px",
+        textTransform:"uppercase",
+        fontSize:18,
+        padding:"15px 0px",
+
+        
 
     },
 
@@ -118,14 +121,7 @@ table:{paddengLeft:0},
 
         }
     },
-    heading:{
-        fontSize:18,
-        textTransform:"uppercase",
-        fontWeight:600,
-        padding:"15px 0px",
-
-
-    },
+  
    
        
     overView:{
